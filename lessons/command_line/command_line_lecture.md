@@ -30,7 +30,7 @@ will start out in a place known as the `HOME` directory. This is a different
 place for every user. Let's figure out where we are for each of you. 
 
 ```bash
-pwd
+cd
 ```
 
 This stands for "print working directory". The **working directory** is basically
@@ -50,10 +50,10 @@ command line we want a new folder called `test_directory` and it's made it for
 us. Let's make sure it's there.
 
 ```bash
-ls
+dir
 ```
 
-`ls` is the command to list all of the files in the current working directory.
+`dir` is the command to list all of the files in the current working directory.
 You should see a bunch of files and folders come up, and amongst them should
 be `test_directory` that we just created.
 
@@ -125,9 +125,9 @@ The greater than says, "put that output into the following file instead."
 What if we want to read that file back out to the terminal?
 
 ```bash
-cat test_file.txt
+type test_file.txt
 ```
-`cat` takes whatever is in the file and reads it out to stdout one line at a
+`type` takes whatever is in the file and reads it out to stdout one line at a
 time.
 
 Let's get a bit fancier and load in a dataset. Let's pull it from the internet
