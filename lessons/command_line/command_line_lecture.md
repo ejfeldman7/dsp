@@ -153,14 +153,14 @@ Now that we have the data file, let's learn how to manipulate files.
 Let's start out by seeing what's in our working directory.
 
 ```bash
-ls
+dir
 ```
 
 Now let's make a copy of the data file
 
 ```bash
-cp data.txt data2.txt
-ls
+copy data.txt data2.txt
+dir
 ```
 
 Now we have two copies of the data file! Nice. How do we know which came
