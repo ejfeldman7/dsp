@@ -2,9 +2,9 @@
 
 When we run our code to generate an approximation for a sampling distribution of wait times (lamba as our parameter, L as our statistic) with lambda set to 2, sample size 5, and our simulation set to run 1000 times, we find the following approximations:  
 
->90% Confidence Interval for L: (1.2704657734500975, 3.892964817911828)
->Root mean square error of L = 0.8709363447062992
->Mean error of L = 0.28241450425424464
+>90% Confidence Interval for L: (1.2704657734500975, 3.892964817911828)  
+>Root mean square error of L = 0.8709363447062992  
+>Mean error of L = 0.28241450425424464  
 
 Additionally, we can plot our approximate sampling distribution (CDF or PDF), as seen below:
 
