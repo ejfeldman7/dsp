@@ -86,14 +86,20 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+In this problem, we want to know what the probability of a child being an identical twin is, given that we already know that the child is a twin. Bayes' Theorem tells us that we want to find the proportion of identical twins, out of all twins. Thus, we take the proportion of identical twins (1/300) in the population and divide it by the sum total of the porportion of twins (1/300+1/125). This reduces to 5/17. 
+
+We may simplify this thought slightly and say that the ratio of fraternal to identical twins is 300:125, so the proportion of identical twins is 125/425 or 5/17.
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+One of the sticking points for many students in my classes in the past was in interpreting confidence intervals, in part because AP Statistics is a course that is almost entirely taught from a frequentist perspective. Students would initial desire to take a 90% confidence interval to mean that there is a 90% chance that an interval captures the true parameter. Rather, the frequentist approach says that if we repeat our process of constructing our interval many many times, 90% of these intervals will capture the true parameter. Ultimately, though, the one interval we generated in class either contains the parameter or doesn't, so the probability of containing the parameter is either 0% or 100% and we just don't know which is the case. 
+
+So, a frequentist sees the probability of an event as a proportion of outcomes in the long run, a value that will be approached as the number of trials tends toward infinity. The Bayesian approach seeks to compute the probability from prior knowledge and observed outcomes. Rather than saying 90% of similarly constructed intervals contain the true parameter, a Bayesian statistician would begin by constructing some prior distribution for the parameter of interest and use that in comparison to the data collected to construct an interval that is meant to say that the interval has a 90% chance of capturing the true value. 
+
+In the end, when we seek to determine a true value such as a mean or proprtion in a population, is there a fixed true value that we will never know that we seek to estimate with a sample and judge with a hypothesis test or can we use our prior knowledge to construct a distribution for the parameter of interest and compare it to our sample? Is probability based on long run observable proportions or based on theorhetical calculations? 
 
 ---
 
